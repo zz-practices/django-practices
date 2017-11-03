@@ -11,7 +11,7 @@ fi
 
 #curl https://raw.githubusercontent.com/WALL-E/static/master/setup/redhat/install_python36|bash
 
-install_python36.sh
+./install_python36.sh
 
 pip3.6 install -r requirements.txt
 
