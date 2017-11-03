@@ -23,7 +23,7 @@ cd django-practices/src
 
 ./install.sh
 
-iptables -F
+./init_db.sh
 
 ./startup.sh
 

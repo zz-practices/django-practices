@@ -9,6 +9,4 @@ if test $ret -ne 0
 then
     echo "You need to install MySQL database"
     exit 1
-else
-    mysql -uroot resthub < ${PWD}/resthub.sql
 fi
