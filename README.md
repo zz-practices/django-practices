@@ -15,9 +15,12 @@
 花最少的时间，快速撸出功能多、Bug少的代码。
 
 
+## 安装步骤
+
+```
 yum install -y git
 
-git https://github.com/zz-practices/django-practices.git
+git clone https://github.com/zz-practices/django-practices.git
 
 cd django-practices/src
 
@@ -26,4 +29,7 @@ cd django-practices/src
 ./init_db.sh
 
 ./startup.sh
+
+iptables -F
+```
 
