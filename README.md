@@ -13,3 +13,16 @@
 
 ## 愿景
 花最少的时间，快速撸出功能多、Bug少的代码。
+
+
+yum install -y git
+git https://github.com/zz-practices/django-practices.git
+
+cd django-practices/src
+./install_python36.sh
+./install.sh
+
+iptables -F
+
+./startup.sh
+
