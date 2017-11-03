@@ -10,5 +10,5 @@ then
     echo "You need to install MySQL database"
     exit 1
 else
-    mysqldump -u root -t resthub -uroot --password=123456 > ${PWD}/resthub.sql
+    mysqldump -u root -t resthub -uroot > ${PWD}/resthub.sql
 fi

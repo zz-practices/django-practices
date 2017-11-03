@@ -10,5 +10,5 @@ then
     echo "You need to install MySQL database"
     exit 1
 else
-    mysql -uroot --password=123456 resthub < ${PWD}/resthub.sql
+    mysql -uroot resthub < ${PWD}/resthub.sql
 fi

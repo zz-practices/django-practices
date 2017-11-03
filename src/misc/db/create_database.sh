@@ -10,5 +10,5 @@ then
     echo "You need to install MySQL database"
     exit 1
 else
-    mysql -uroot --password=123456 < ${PWD}/create_database.sql
+    mysql -uroot < ${PWD}/create_database.sql
 fi
